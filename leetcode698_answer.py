@@ -41,3 +41,8 @@ class Solution:
         nums.sort(reverse = True)
         visited = [False for _ in range(len(nums))]
         return dfs(nums,0,0,target,k)
+    
+    
+a = Solution()
+b = a.canPartitionKSubsets([1,2,3,4],2)
+print(b)
